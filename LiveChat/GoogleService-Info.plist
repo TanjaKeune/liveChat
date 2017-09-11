@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>292119207049-jjn6gtvp2sqv6p4ppcmvn46kg828eu5u.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.292119207049-jjn6gtvp2sqv6p4ppcmvn46kg828eu5u</string>
+	<key>API_KEY</key>
+	<string>AIzaSyD-73zL_B4GzU5bDZnKjAiqQ8x8tw3Udms</string>
+	<key>GCM_SENDER_ID</key>
+	<string>292119207049</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>sugapp.LiveChat</string>
+	<key>PROJECT_ID</key>
+	<string>funyou-9d1cc</string>
+	<key>STORAGE_BUCKET</key>
+	<string>funyou-9d1cc.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:292119207049:ios:da5859371ef78e44</string>
+	<key>DATABASE_URL</key>
+	<string>https://funyou-9d1cc.firebaseio.com</string>
+</dict>
+</plist>

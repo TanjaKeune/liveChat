@@ -7,23 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B90771B1F630ECC00B05814 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9B90771A1F630ECC00B05814 /* GoogleService-Info.plist */; };
 		9BBE918D1F5E282B005AF6F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBE918C1F5E282B005AF6F3 /* AppDelegate.swift */; };
-		9BBE918F1F5E282B005AF6F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBE918E1F5E282B005AF6F3 /* ViewController.swift */; };
+		9BBE918F1F5E282B005AF6F3 /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBE918E1F5E282B005AF6F3 /* MessagesViewController.swift */; };
 		9BBE91921F5E282B005AF6F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BBE91901F5E282B005AF6F3 /* Main.storyboard */; };
 		9BBE91941F5E282B005AF6F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BBE91931F5E282B005AF6F3 /* Assets.xcassets */; };
 		9BBE91971F5E282B005AF6F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BBE91951F5E282B005AF6F3 /* LaunchScreen.storyboard */; };
 		9BBE91A01F5E2ACF005AF6F3 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBE919F1F5E2ACF005AF6F3 /* LoginController.swift */; };
+		9BD597C11F65D6C000A610A0 /* NewMessageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD597C01F65D6C000A610A0 /* NewMessageController.swift */; };
+		9BD597C31F65F80400A610A0 /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD597C21F65F80400A610A0 /* Users.swift */; };
+		CD33FFD105647E98E6572102 /* Pods_LiveChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE8F489752E6A2C044451D35 /* Pods_LiveChat.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		238D1705ACB6BB8F72F55387 /* Pods-LiveChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiveChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LiveChat/Pods-LiveChat.debug.xcconfig"; sourceTree = "<group>"; };
+		9B90771A1F630ECC00B05814 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		9BBE91891F5E282B005AF6F3 /* LiveChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiveChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BBE918C1F5E282B005AF6F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9BBE918E1F5E282B005AF6F3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9BBE918E1F5E282B005AF6F3 /* MessagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
 		9BBE91911F5E282B005AF6F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9BBE91931F5E282B005AF6F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9BBE91961F5E282B005AF6F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9BBE91981F5E282B005AF6F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9BBE919F1F5E2ACF005AF6F3 /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		9BD597C01F65D6C000A610A0 /* NewMessageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewMessageController.swift; sourceTree = "<group>"; };
+		9BD597C21F65F80400A610A0 /* Users.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
+		E74AD9B16658EB6A38F9414B /* Pods-LiveChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiveChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-LiveChat/Pods-LiveChat.release.xcconfig"; sourceTree = "<group>"; };
+		EE8F489752E6A2C044451D35 /* Pods_LiveChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LiveChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +41,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD33FFD105647E98E6572102 /* Pods_LiveChat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		108D589B87B053E98076DFCB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				238D1705ACB6BB8F72F55387 /* Pods-LiveChat.debug.xcconfig */,
+				E74AD9B16658EB6A38F9414B /* Pods-LiveChat.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		9BBE91801F5E282B005AF6F3 = {
 			isa = PBXGroup;
 			children = (
 				9BBE918B1F5E282B005AF6F3 /* LiveChat */,
 				9BBE918A1F5E282B005AF6F3 /* Products */,
+				108D589B87B053E98076DFCB /* Pods */,
+				E66CC323B4E6385F527AB907 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,11 +80,12 @@
 			children = (
 				9BBE919E1F5E2AA5005AF6F3 /* Controller */,
 				9BBE918C1F5E282B005AF6F3 /* AppDelegate.swift */,
-				9BBE918E1F5E282B005AF6F3 /* ViewController.swift */,
+				9B90771A1F630ECC00B05814 /* GoogleService-Info.plist */,
 				9BBE91901F5E282B005AF6F3 /* Main.storyboard */,
 				9BBE91931F5E282B005AF6F3 /* Assets.xcassets */,
 				9BBE91951F5E282B005AF6F3 /* LaunchScreen.storyboard */,
 				9BBE91981F5E282B005AF6F3 /* Info.plist */,
+				9BD597C41F65F81500A610A0 /* Models */,
 			);
 			path = LiveChat;
 			sourceTree = "<group>";
@@ -70,9 +93,27 @@
 		9BBE919E1F5E2AA5005AF6F3 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				9BBE918E1F5E282B005AF6F3 /* MessagesViewController.swift */,
 				9BBE919F1F5E2ACF005AF6F3 /* LoginController.swift */,
+				9BD597C01F65D6C000A610A0 /* NewMessageController.swift */,
 			);
 			name = Controller;
+			sourceTree = "<group>";
+		};
+		9BD597C41F65F81500A610A0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9BD597C21F65F80400A610A0 /* Users.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		E66CC323B4E6385F527AB907 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE8F489752E6A2C044451D35 /* Pods_LiveChat.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -82,9 +123,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9BBE919B1F5E282B005AF6F3 /* Build configuration list for PBXNativeTarget "LiveChat" */;
 			buildPhases = (
+				DFF1051E826ADE7DF86C59FA /* [CP] Check Pods Manifest.lock */,
 				9BBE91851F5E282B005AF6F3 /* Sources */,
 				9BBE91861F5E282B005AF6F3 /* Frameworks */,
 				9BBE91871F5E282B005AF6F3 /* Resources */,
+				FF7D6E9010BB60FF68A69BD4 /* [CP] Embed Pods Frameworks */,
+				AFE6130E74A6473890669E77 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -138,17 +182,68 @@
 				9BBE91971F5E282B005AF6F3 /* LaunchScreen.storyboard in Resources */,
 				9BBE91941F5E282B005AF6F3 /* Assets.xcassets in Resources */,
 				9BBE91921F5E282B005AF6F3 /* Main.storyboard in Resources */,
+				9B90771B1F630ECC00B05814 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AFE6130E74A6473890669E77 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LiveChat/Pods-LiveChat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DFF1051E826ADE7DF86C59FA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FF7D6E9010BB60FF68A69BD4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LiveChat/Pods-LiveChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9BBE91851F5E282B005AF6F3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9BBE918F1F5E282B005AF6F3 /* ViewController.swift in Sources */,
+				9BD597C11F65D6C000A610A0 /* NewMessageController.swift in Sources */,
+				9BBE918F1F5E282B005AF6F3 /* MessagesViewController.swift in Sources */,
+				9BD597C31F65F80400A610A0 /* Users.swift in Sources */,
 				9BBE91A01F5E2ACF005AF6F3 /* LoginController.swift in Sources */,
 				9BBE918D1F5E282B005AF6F3 /* AppDelegate.swift in Sources */,
 			);
@@ -271,6 +366,7 @@
 		};
 		9BBE919C1F5E282B005AF6F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 238D1705ACB6BB8F72F55387 /* Pods-LiveChat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = UL725DMG9K;
@@ -284,6 +380,7 @@
 		};
 		9BBE919D1F5E282B005AF6F3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E74AD9B16658EB6A38F9414B /* Pods-LiveChat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = UL725DMG9K;
@@ -314,6 +411,7 @@
 				9BBE919D1F5E282B005AF6F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
