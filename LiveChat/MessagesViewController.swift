@@ -21,6 +21,13 @@ class MessagesViewController: UITableViewController {
         checkIfUserIsLoggedIn()
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(true)
+        
+        checkIfUserIsLoggedIn()
+    }
+    
+    
     func handleNewMessage() {
         let newMessageCont = NewMessageController()
         let navController = UINavigationController(rootViewController: newMessageCont)

@@ -16,6 +16,8 @@
 		9BBE91A01F5E2ACF005AF6F3 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBE919F1F5E2ACF005AF6F3 /* LoginController.swift */; };
 		9BD597C11F65D6C000A610A0 /* NewMessageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD597C01F65D6C000A610A0 /* NewMessageController.swift */; };
 		9BD597C31F65F80400A610A0 /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD597C21F65F80400A610A0 /* Users.swift */; };
+		9BD597E81F66DC3000A610A0 /* LoginController+handler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD597E71F66DC3000A610A0 /* LoginController+handler.swift */; };
+		9BD597EB1F67332000A610A0 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD597EA1F67332000A610A0 /* Extensions.swift */; };
 		CD33FFD105647E98E6572102 /* Pods_LiveChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE8F489752E6A2C044451D35 /* Pods_LiveChat.framework */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +34,8 @@
 		9BBE919F1F5E2ACF005AF6F3 /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		9BD597C01F65D6C000A610A0 /* NewMessageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewMessageController.swift; sourceTree = "<group>"; };
 		9BD597C21F65F80400A610A0 /* Users.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
+		9BD597E71F66DC3000A610A0 /* LoginController+handler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LoginController+handler.swift"; sourceTree = "<group>"; };
+		9BD597EA1F67332000A610A0 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		E74AD9B16658EB6A38F9414B /* Pods-LiveChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiveChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-LiveChat/Pods-LiveChat.release.xcconfig"; sourceTree = "<group>"; };
 		EE8F489752E6A2C044451D35 /* Pods_LiveChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LiveChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -78,6 +82,7 @@
 		9BBE918B1F5E282B005AF6F3 /* LiveChat */ = {
 			isa = PBXGroup;
 			children = (
+				9BD597E91F67330400A610A0 /* Helpers */,
 				9BBE919E1F5E2AA5005AF6F3 /* Controller */,
 				9BBE918C1F5E282B005AF6F3 /* AppDelegate.swift */,
 				9B90771A1F630ECC00B05814 /* GoogleService-Info.plist */,
@@ -96,6 +101,7 @@
 				9BBE918E1F5E282B005AF6F3 /* MessagesViewController.swift */,
 				9BBE919F1F5E2ACF005AF6F3 /* LoginController.swift */,
 				9BD597C01F65D6C000A610A0 /* NewMessageController.swift */,
+				9BD597E71F66DC3000A610A0 /* LoginController+handler.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -106,6 +112,14 @@
 				9BD597C21F65F80400A610A0 /* Users.swift */,
 			);
 			name = Models;
+			sourceTree = "<group>";
+		};
+		9BD597E91F67330400A610A0 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				9BD597EA1F67332000A610A0 /* Extensions.swift */,
+			);
+			name = Helpers;
 			sourceTree = "<group>";
 		};
 		E66CC323B4E6385F527AB907 /* Frameworks */ = {
@@ -241,11 +255,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BD597E81F66DC3000A610A0 /* LoginController+handler.swift in Sources */,
 				9BD597C11F65D6C000A610A0 /* NewMessageController.swift in Sources */,
 				9BBE918F1F5E282B005AF6F3 /* MessagesViewController.swift in Sources */,
 				9BD597C31F65F80400A610A0 /* Users.swift in Sources */,
 				9BBE91A01F5E2ACF005AF6F3 /* LoginController.swift in Sources */,
 				9BBE918D1F5E282B005AF6F3 /* AppDelegate.swift in Sources */,
+				9BD597EB1F67332000A610A0 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +291,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -325,6 +342,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
